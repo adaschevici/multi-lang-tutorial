@@ -4,7 +4,6 @@ py_binary(
     srcs = ["main.py"],
     deps = [
         "//projects/calculator:calculator",
-        requirement("Flask"),
-        requirement("jinja2")
+        requirement("Flask")
     ]
 )

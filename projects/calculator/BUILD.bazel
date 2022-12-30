@@ -1,3 +1,4 @@
+load("@python_test_deps//:requirements.bzl", "requirement")
 py_library(
     name = "calculator",
     srcs = ["calculator.py"],
@@ -9,5 +10,6 @@ py_test(
     srcs = ["test_calculator.py"],
     deps = [
         "//projects/calculator:calculator",
+        requirement("pytest")
     ],
 )
