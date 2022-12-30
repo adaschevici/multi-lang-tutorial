@@ -11,6 +11,8 @@ def test_works_always_2():
 
 if __name__ == "__main__":
     import pytest
+    import sys
+    print(f"Version {sys.version}")
     raise SystemExit(pytest.main([__file__]))
 
 # import unittest
