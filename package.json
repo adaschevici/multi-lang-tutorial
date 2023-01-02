@@ -1,0 +1,27 @@
+{
+  "name": "multi-lang-tutorial",
+  "version": "1.0.0",
+  "description": "Getting my feet wet with bazel",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adaschevici/multi-lang-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adaschevici/multi-lang-tutorial/issues"
+  },
+  "homepage": "https://github.com/adaschevici/multi-lang-tutorial#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "pnpm": "^7.21.0",
+    "@bazel/jasmine": "5.7.3",
+    "jasmine": "4.5.0",
+    "jasmine-core": "4.5.0"
+  }
+}
