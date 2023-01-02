@@ -1,0 +1,13 @@
+load("@aspect_rules_jasmine//jasmine:defs.bzl", "jasmine_test")
+
+jasmine_test(
+    name = "calculator_test",
+    data = [
+        "calculator.js",
+        "calculator.spec.js",
+        "package.json",
+    ],
+    args = ["*.spec.js"],
+    chdir = package_name(),
+)
+
